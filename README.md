@@ -2,7 +2,7 @@
 
 Selectors library like [Reselect](https://github.com/reduxjs/reselect/), but for [Vuex](https://github.com/vuejs/vuex).
 
-[![Coveralls][coveralls-badge]][coveralls]
+[![Coverage Status](https://coveralls.io/repos/github/iamresp/vuex-selectors/badge.svg?branch=develop)](https://coveralls.io/github/iamresp/vuex-selectors?branch=develop)
 
 ## Installation
 
