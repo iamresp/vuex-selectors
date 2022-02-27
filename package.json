@@ -10,8 +10,8 @@
     "build:cjs": "cross-env BABEL_ENV=commonjs babel --out-dir lib/cjs src --ignore src/types.ts --extensions .ts",
     "build:types": "tsc",
     "test": "jest",
-    "test:ci": "eslint test --ext .ts --fix-dry-run && jest",
     "lint": "eslint src --ext .ts --fix-dry-run",
+    "lint:ci": "eslint . --ext .ts --fix-dry-run",
     "tsc": "tsc --noEmit --emitDeclarationOnly false"
   },
   "files": [
