@@ -1,6 +1,6 @@
 {
   "name": "vuex-selectors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Selectors implementation for Vuex.",
   "scripts": {
     "build": "yarn build:prod && yarn build:umd && yarn build:cjs && yarn build:es && yarn build:types",
